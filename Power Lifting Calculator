@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.Math;
+
+public class PowerTotal{
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int benchPress, sQuat, deadLift, powerTotal;
+        
+        System.out.println("How much do you bench?");
+        benchPress = input.nextInt();
+        System.out.println("How much do you squat?");
+        sQuat = input.nextInt();
+        System.out.println("How much do you Deadlift?");
+        deadLift = input.nextInt();
+        powerTotal = benchPress + sQuat + deadLift;
+        System.out.println("You're Powerlifting total is  " + powerTotal + ".");
+    }
+}
